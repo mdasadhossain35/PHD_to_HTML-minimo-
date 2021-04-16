@@ -1,0 +1,277 @@
+/*
+font-family: 'Playfair Display', serif
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+/*common*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common*/
+
+ /*header section start*/
+ header{
+ 	padding: 25px 0;
+    /*border: 1px solid green;*/
+ }
+.container {
+	margin: 0 auto;
+	width: 90%;
+	/*border:1px solid red;*/
+}
+
+.wrapper {
+	overflow: hidden;
+}
+/*logo side*/
+.logo {
+	width: 9%;
+	float: left;
+	/*border:1px solid;*/
+}
+.logo a{}
+.logo img{
+	margin-top: 11px;
+	width: 100%;
+}
+/*menu side*/
+.menu {
+	width: 55%;
+	float: right;
+	/*border:1px solid;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 60px;
+	padding:3px 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li:hover a{
+	border-bottom: 1px solid #626262;
+}
+
+ /*header section end*/
+
+ /*banner section start*/
+.banner{
+	/*padding:80px 0;*/
+	/*border:1px solid green ;*/
+}
+.banner-img{
+
+}
+.banner-img img{
+	width: 100%;
+}
+
+ /*banner section end*/
+
+ /*getawayu section start*/
+.getaway{
+	padding: 80px 0;
+}
+.container2{
+	width:80%;
+	margin: 0 auto;
+	/*border:1px solid red;*/
+}
+.b_wrapper{
+
+}
+
+.common-light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color:#b4ad9e;
+	text-transform: uppercase;
+}
+.common-heading{
+	margin: 30px 0 36px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.common-blog{
+	margin: 0 117px 0 0;
+	line-height: 24px;
+}
+.mt_40{
+	margin-top: 40px;
+}
+ /*getawayu section end*/
+/*blog section start*/
+.blog{
+	padding: 30px 0 80px;
+	/*border:1px solid;*/
+}
+
+.b-wrapper{
+	overflow: hidden;
+}
+.single{
+	margin-top: 50px;
+	width: 47%;
+	float: left;
+	/*border:1px solid green;*/
+}
+.single:nth-child(even){
+	margin-left:6%;
+	
+	
+}
+.s-img{
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+/*blog section start*/
+/*news section start*/
+.news {
+	padding: 100px 0;
+	background-color: #f0f0f0;
+}
+
+.sign-up {
+	text-align: center;
+}
+.s-h1{
+	margin-top: 0px;
+	margin-bottom: 70px;
+	color: #323232;
+}
+
+.s-form {
+    position:relative;
+	height: 45px;
+    width: 400px;
+    margin: 0 auto;
+	/*border:5px solid red;*/
+}
+.s-form input{
+	font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #626262;
+    width: 343px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 40px;
+
+}
+.s-form input:focus{
+	outline: none;
+}
+.sign-btn {
+    position: absolute;
+    right: 0;
+    top: 3px;
+	border: none;
+    background-color: transparent;
+}
+.sign-btn:focus{
+	outline: none;
+}
+.sign-btn img{}
+
+/*news section end*/
+/*button section start*/
+.cmn-btn {
+	padding: 90px 0;
+	/*border:1px solid; */
+}
+
+
+.btn-wrap {
+	text-align: center;
+}
+
+.btn-wrap button{
+	padding: 22px 34px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #626262;
+	background-color: transparent;
+	cursor: pointer;
+
+}
+.btn-wrap button:focus{
+	outline: none;
+}
+/*button section end*/
+/*footer  section start*/
+footer{
+	padding:40px 0;
+	background-color: #f0f0f0;
+
+}
+
+.foot-wrap {
+	overflow: hidden;
+}
+ /*left side*/
+.l-foot {
+	float: left;
+	width: 40%;
+
+}
+.l-foot ul{
+	overflow: hidden;
+
+}
+.l-foot ul li{
+	list-style: none;
+	float: left;
+}
+.l-foot ul li a{
+	margin:0 14px ;
+	font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+.l-foot ul li:nth-child(1) a{
+	margin-left: -37px;
+}
+/*right side*/
+.r-foot {
+	float: right;
+	width: 30%;
+}
+
+.r-foot ul{
+	float: right;
+}
+.r-foot ul li span{
+	font-size: 14px;
+	color: #000000;
+}
+.r-foot ul li{
+	margin: 0 20px;
+	list-style: none;
+	float: left;
+	cursor: pointer;
+}
+.r-foot ul li:last-child{
+	margin-right: 0;
+}
+.r-foot ul img{}
+
+
+/*footer  section end*/
